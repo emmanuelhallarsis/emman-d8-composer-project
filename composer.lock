@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "736183d738dcf788a71e735c9d367428",
+    "content-hash": "08fd46120d005bdcaad07010348de75a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1971,6 +1971,57 @@
                 "web"
             ],
             "time": "2018-02-09T18:02:28+00:00"
+        },
+        {
+            "name": "drupal/migrate_source_yaml",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/migrate_source_yaml.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_source_yaml-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "075375db10ac141580f2fe6e7ddafbe0568afb13"
+            },
+            "require": {
+                "drupal/core": "^8.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1546452480",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "rodrigoaguilera",
+                    "homepage": "https://www.drupal.org/user/408170"
+                },
+                {
+                    "name": "splatio",
+                    "homepage": "https://www.drupal.org/user/1012210"
+                }
+            ],
+            "description": "Allows to migrate data from YAML files.",
+            "homepage": "https://www.drupal.org/project/migrate_source_yaml",
+            "support": {
+                "source": "https://git.drupalcode.org/project/migrate_source_yaml"
+            }
         },
         {
             "name": "drupal/pathauto",
