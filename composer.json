@@ -23,6 +23,7 @@
         "drupal/migrate_plus": "^4.2",
         "drupal/migrate_source_yaml": "^1.2",
         "drupal/pathauto": "^1.4",
+        "drupal/search_api_pantheon": "~1.0",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8",
         "pantheon-systems/quicksilver-pushback": "~1",
