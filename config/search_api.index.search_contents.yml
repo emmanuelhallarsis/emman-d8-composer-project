@@ -1,0 +1,33 @@
+uuid: 1ffd60dd-913c-42ab-aead-060eb760a6f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.pantheon
+  module:
+    - search_api
+    - node
+id: search_contents
+name: search-contents
+description: ''
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: pantheon
