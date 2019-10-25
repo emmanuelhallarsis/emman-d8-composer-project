@@ -58,3 +58,16 @@ $settings['install_profile'] = 'standard';
    $settings['cache']['bins']['form']      = 'cache.backend.database';
 }
 
+
+if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
+   switch($_ENV['PANTHEON_ENVIRONMENT']) {
+    case 'live':
+    case 'test':
+    case 'dev':
+      default :
+        $config['views_ui']['status'] = FALSE;
+        $config['fields.ui']['status'] = FALSE;
+        break;
+    }
+}
+
