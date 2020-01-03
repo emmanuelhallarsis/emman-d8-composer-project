@@ -56,5 +56,12 @@ $settings['install_profile'] = 'standard';
 
    // Set Redis to not get the cache_form (no performance difference).
    $settings['cache']['bins']['form']      = 'cache.backend.database';
+ }
+
+ // Disable New Relic for anonymous users.
+if (function_exists('newrelic_ignore_transaction')) {
+
+  newrelic_ignore_transaction();
+
 }
 
